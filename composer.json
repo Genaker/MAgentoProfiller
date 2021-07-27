@@ -9,7 +9,7 @@
             "email": "yegorshytikov@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-stable",
     "require": {},
     "autoload": {
         "files": [
