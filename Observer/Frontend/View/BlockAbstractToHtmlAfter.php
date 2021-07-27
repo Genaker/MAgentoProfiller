@@ -30,7 +30,8 @@ class BlockAbstractToHtmlAfter implements \Magento\Framework\Event\ObserverInter
             $issueText = '!!!';
         }
         
-        echo "<!-- The Block " . $this->getModuleName() . ' - ' . $this->getNameInLayout() . ' ' . $issueText . " took " . $duration . " seconds to complete. -->";))
+        echo "<!-- The Block " . $this->getModuleName() . ' - ' . $this->getNameInLayout() . ' ' . $issueText . " took " . $duration . " seconds to complete. -->";
+       
         return 1;
     }
 }
