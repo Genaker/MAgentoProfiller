@@ -19,7 +19,7 @@ class BlockAbstractToHtmlBefore implements \Magento\Framework\Event\ObserverInte
     public function execute(
         \Magento\Framework\Event\Observer $observer
     ) {
-        //Your observer code
+        $GLOBALS['pstart'] = microtime(TRUE);
     }
 }
 
